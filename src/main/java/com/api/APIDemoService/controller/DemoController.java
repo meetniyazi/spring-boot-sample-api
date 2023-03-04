@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 @Slf4j
 public class DemoController {
 
-    @GetMapping("/demo/api/{param}")
+    @GetMapping("/api/{param}")
     public String getDemo(@PathVariable("param")String param){
         log.info("demos with param {}",param);
         log.error("demos with param -error {}",param);
