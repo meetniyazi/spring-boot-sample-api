@@ -16,7 +16,7 @@ public class DemoController {
 
     @GetMapping("/api/{param}")
     public String getDemo(@PathVariable("param")String param){
-        log.info("demos with param {}",param);
+        log.info("api with param {}",param);
         log.error("demos with param -error {}",param);
         return "API "+param;
     }
