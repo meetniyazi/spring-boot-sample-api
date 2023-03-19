@@ -21,9 +21,9 @@ public class DemoController {
         return "API "+param;
     }
 
-    @GetMapping("/demo/api/")
+    @GetMapping("/demo/api")
     public String getDemo2(){
-        log.info("demos hello world1111");
+        log.info("demos hello world111111");
         log.error("demos hello");
         return "Demo API welcome";
     }
