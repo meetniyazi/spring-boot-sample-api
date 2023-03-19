@@ -10,6 +10,7 @@
 	<groupId>com.api</groupId>
 	<artifactId>APIDemoService</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>APIDemoService</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
