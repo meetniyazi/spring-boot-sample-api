@@ -16,14 +16,14 @@ public class DemoController {
 
     @GetMapping("sample/api/{param}")
     public String getDemo(@PathVariable("param")String param){
-        log.info("api with param :: {}",param);
+        log.info("api with param 111:: {}",param);
         log.error("demos with param -error {}",param);
         return "API "+param;
     }
 
     @GetMapping("/demo/api/")
     public String getDemo2(){
-        log.info("demos hello world");
+        log.info("demos hello world1111");
         log.error("demos hello");
         return "Demo API welcome";
     }
